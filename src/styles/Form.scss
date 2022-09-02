@@ -1,0 +1,32 @@
+.Form{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    margin-bottom: 32px;
+    width: 100%;
+    flex-direction: column;
+    &__item{
+        margin-top: 12px !important;
+        &:first-child{
+            margin-top: 0 !important;
+        }
+    }
+    &__error{
+        color: rgba(207, 4, 4, 0.874);
+        font-size: 12px;
+        margin-bottom: 8px !important;
+
+    }
+}
+
+.Form-update{
+    &__item{
+        width: 100%;
+        margin-bottom: 16px !important;
+
+    }
+    &__error{
+        color: rgba(207, 4, 4, 0.874);
+        font-size: 12px;
+    }
+}

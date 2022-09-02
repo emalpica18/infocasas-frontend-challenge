@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# InfoCasas Frontend Challenge Criteria
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the InfoCasas frontend coding challenge! Please read the following instructions carefully.
 
-## Available Scripts
+**Your goal is to set up a personal task management app that lets users to track and focus on the things they need to get done.**
 
-In the project directory, you can run:
+# Contents
 
-### `npm start`
+-   [Use cases](#use-cases)
+-   [Evaluation criteria](#evaluation-criteria)
+    -   [Technology requirements](#technology-requirements)
+    -   [Code requirements](Criteria.md#must-have)
+-   [How to submit](#how-to-submit)
+-   [API server](#api-server)
+-   [Time limit](#time-limit)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Use cases
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The user shall be able to:
 
-### `npm test`
+- Create, list, delete, update todos (using the API provided below)
+- Filter by string
+- Sort by completeness
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The interactions should not refresh the page.
 
-### `npm run build`
+# Evaluation criteria
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Technology requirements
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+[React.js](https://reactjs.org/) is a mandatory requirement. Apart from this, you can use any library.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Code requirements
 
-### `npm run eject`
+The full criteria for evaluating the coding challenge can be found [here](./Criteria.md).
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# How to submit
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Clone this repository.
+- A RESTful API for `todos` is provided with the challenge. See: [API server](#api-server)
+- Complete your project as described above within your local repository.
+- Ensure everything you want to commit is committed before you bundle.
+- Create a git bundle: `git bundle create your_name.bundle --all`
+- Email the bundle file to your point of contact.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# API server
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The service [JSONPlaceholder](https://jsonplaceholder.typicode.com) includes all the necessary methods required to achieve the goal (`POST`, `GET`, `PUT`, `PATCH`, and `DELETE`).
 
-## Learn More
+Check [JSONPlaceholder](https://jsonplaceholder.typicode.com) for more information.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Time limit
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+There is no hard time limit for this coding challenge. However, we believe that 6-8 hours is sufficient for the [must-have parts of the application](Criteria.md#must-have). Happy coding!
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Good luck,
+The InfoCasas Team
